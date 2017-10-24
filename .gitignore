@@ -1,0 +1,4 @@
+*.pkl
+day2/conv_net/logs
+__pycache__
+.ipynb_checkpoints
