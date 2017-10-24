@@ -26,7 +26,8 @@
 ### Docs
 
 - [Scikit learn](http://scikit-learn.org/stable/documentation.html)
-- [Machine learning map]([http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html])
+
+- [Machine learning map](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ### Videos
 
