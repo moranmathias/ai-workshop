@@ -45,4 +45,17 @@ Run the following command
 
 > conda env export > environment.yml
 
+## Docker
+
+> docker build -t ai-workshop .
+> docker run -ti -p 8888:8888 ai-workshop
+
+Then
+
+> source activate tf
+
+Then
+
+> jupyter notebook --ip=0.0.0.0 --allow-root
+
 
