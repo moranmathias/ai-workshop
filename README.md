@@ -45,17 +45,35 @@ Run the following command
 
 > conda env export > environment.yml
 
-## Docker
+## Alternative Setup: using Docker
 
-> docker build -t ai-workshop .
-> docker run -ti -p 8888:8888 ai-workshop
+There are two possible methods in turn:
 
-Then
+### Pulling and running the image directly from DockerHub
 
-> source activate tf
+    docker run -it -p 8888:8888 mschonaker/ai-workshop
 
-Then
+Once on the command prompt run:
 
-> jupyter notebook --ip=0.0.0.0 --allow-root
+    source activate tf
+
+and then 
+    
+    jupyter notebook --ip=0.0.0.0 --allow-root  
+  
+### Building the image after cloning the GitHub repository
+
+    cd ai-workshop && docker build -t ai-workshop .
+
+Then running:
+
+    docker run -it -p 8888:8888 ai-workshop
 
 
+Once on the command prompt run:
+
+    source activate tf
+
+and then 
+    
+    jupyter notebook --ip=0.0.0.0 --allow-root 
