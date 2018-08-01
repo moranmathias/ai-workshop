@@ -1,4 +1,4 @@
-# AI Workflow
+# AI Workshop
 
 ## Requirements
 
